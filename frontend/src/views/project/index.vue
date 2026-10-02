@@ -84,7 +84,7 @@ import type { EntryRow } from '@/data/types'
 const meta = moduleMeta('project')
 const columns = ["工程编号", "所属隐患点", "工程类型", "批复日期", "批复金额", "承建单位", "完工日期", "工程状态"]
 const actions = ["提交批复", "开始施工", "确认竣工"]
-const statuses = ["待批复", "已批复", "施工中", "已竣工"]
+const statuses = ["待批复", "已批复", "施工中", "已竣工", "待核拨付"]
 const stats = [{"label": "施工中工程", "value": 0}, {"label": "待批复工程", "value": 0}, {"label": "已竣工工程", "value": 0}]
 
 const rows = ref<EntryRow[]>([])

@@ -11,6 +11,7 @@ const Relocate = () => import('@/views/relocate/index.vue')
 const Refuge = () => import('@/views/refuge/index.vue')
 const Drill = () => import('@/views/drill/index.vue')
 const Project = () => import('@/views/project/index.vue')
+const Funding = () => import('@/views/funding/index.vue')
 const Cutting = () => import('@/views/cutting/index.vue')
 const Wall = () => import('@/views/wall/index.vue')
 const Drainage = () => import('@/views/drainage/index.vue')
@@ -34,6 +35,7 @@ const router = createRouter({
     { path: '/refuge', name: 'refuge', component: Refuge },
     { path: '/drill', name: 'drill', component: Drill },
     { path: '/project', name: 'project', component: Project },
+    { path: '/funding', name: 'funding', component: Funding },
     { path: '/cutting', name: 'cutting', component: Cutting },
     { path: '/wall', name: 'wall', component: Wall },
     { path: '/drainage', name: 'drainage', component: Drainage },
